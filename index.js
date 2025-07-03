@@ -1287,7 +1287,7 @@ const headerBox = blessed.box({
   style: { fg: "white", bg: "default" }
 });
 
-figlet.text("NT EXHAUST".toUpperCase(), { font: "ANSI Shadow" }, (err, data) => {
+figlet.text("Tesss_Web3_Airdroper".toUpperCase(), { font: "ANSI Shadow" }, (err, data) => {
   if (err) headerBox.setContent("{center}{bold}NT EXHAUST{/bold}{/center}");
   else headerBox.setContent(`{center}{bold}{bright-cyan-fg}${data}{/bright-cyan-fg}{/bold}{/center}`);
   safeRender();
