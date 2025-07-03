@@ -1287,8 +1287,8 @@ const headerBox = blessed.box({
   style: { fg: "white", bg: "default" }
 });
 
-figlet.text("TESSS_WEB3_AIRDROPER".toUpperCase(), { font: "ANSI Shadow" }, (err, data) => {
-  if (err) headerBox.setContent("{center}{bold}TESSS_WEB3_AIRDROPER{/bold}{/center}");
+figlet.text("TESSSWEB3".toUpperCase(), { font: "ANSI Shadow" }, (err, data) => {
+  if (err) headerBox.setContent("{center}{bold}TESSSWEB3{/bold}{/center}");
   else headerBox.setContent(`{center}{bold}{bright-cyan-fg}${data}{/bright-cyan-fg}{/bold}{/center}`);
   safeRender();
 });
